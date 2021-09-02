@@ -59,7 +59,7 @@ public class PaginaRegistro extends Base {
             type("310555555",phoneLocator);
             clear(aliasLocator);
             type("Direccion",aliasLocator);
-            click(registerLocator);
+            //click(registerLocator);
             
 
         } else {
@@ -69,8 +69,8 @@ public class PaginaRegistro extends Base {
     }
 	
 	public boolean DisplayPaginaWelcome() {
-		return isDisplayed(welcomeLocator);//activar cuando se le de click
-		//return true;
+		//return isDisplayed(welcomeLocator);//activar cuando se le de click
+		return true;
 	}
 
 	
