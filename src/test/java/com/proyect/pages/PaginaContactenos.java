@@ -1,4 +1,4 @@
-package com.proyect.pom;
+package com.proyect.pages;
 
 import static org.junit.Assert.assertTrue;
 

@@ -1,4 +1,4 @@
-package com.proyect.pom;
+package com.proyect.test;
 
 import static org.junit.Assert.*;
 
@@ -6,6 +6,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+
+import com.proyect.pages.PaginaContactenos;
 
 public class Contactenos_Test {
 	

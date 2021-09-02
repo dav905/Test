@@ -1,4 +1,4 @@
-package com.proyect.pom;
+package com.proyect.pages;
 //base metodos
 import java.util.List;
 import java.util.concurrent.TimeUnit;
