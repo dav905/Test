@@ -40,7 +40,7 @@ public class PaginaRegistro extends Base {
 		click(registerLinkLocator);
 		Thread.sleep(3000);
 		if (isDisplayed(registerPage2Locator)) {
-            type("kiplin002@gmail.com",emailLocator);
+            type("kiplin010@gmail.com",emailLocator);
             click(registerBtnLocator);
             
             timeWait();                   
@@ -59,7 +59,7 @@ public class PaginaRegistro extends Base {
             type("310555555",phoneLocator);
             clear(aliasLocator);
             type("Direccion",aliasLocator);
-            //click(registerLocator);
+            click(registerLocator);
             
 
         } else {
@@ -69,8 +69,8 @@ public class PaginaRegistro extends Base {
     }
 	
 	public boolean DisplayPaginaWelcome() {
-		//return isDisplayed(welcomeLocator);//activar cuando se le de click
-		return true;
+		return isDisplayed(welcomeLocator);//activar cuando se le de click
+		//return true;
 	}
 
 	
